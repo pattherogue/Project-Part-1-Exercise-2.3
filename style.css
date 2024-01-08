@@ -77,6 +77,11 @@ footer {
 .profile-picture {
   border: 2px solid #007bff;
   border-radius: 50%; /* Make it rounded */
+  width: 80px; /* Adjust the size as needed */
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0; /* Update from 'right' to 'left' */
 }
 
 /* Separate sections with margins */
