@@ -2,11 +2,10 @@
 body {
   color: #333;
   background-color: #f8f8f8;
-  /* Add box model properties */
   box-sizing: border-box;
-  margin: 20px; /* Add margin to the body */
-  padding: 10px; /* Add padding to the body */
-  border: 1px solid #ccc; /* Add border to the body */
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 a {
@@ -23,7 +22,6 @@ h1, h2, h3 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.7);
-  /* Add padding below headers */
   padding-bottom: 10px;
 }
 
@@ -45,10 +43,22 @@ p {
   font-size: 1.1em;
 }
 
-/* Using Comments */
 /* Header Styles */
 header {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-picture {
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  order: -1; /* Move profile picture to the top */
+}
+
+.contact-info {
+  align-self: flex-end; /* Move contact info to the bottom right */
 }
 
 /* Table Styles */
@@ -68,15 +78,8 @@ footer {
 }
 
 /* Utilizing the Box Model */
-/* Add border-box to all elements */
 * {
   box-sizing: border-box;
-}
-
-/* Add border and border-radius to the profile picture */
-.profile-picture {
-  border: 2px solid #007bff;
-  border-radius: 50%; /* Make it rounded */
 }
 
 /* Separate sections with margins */
@@ -88,9 +91,10 @@ section {
 
 /* Adjust form elements */
 form {
-  /* Add margin and padding to form */
   margin: 10px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Remove outlines from form elements */
@@ -98,5 +102,4 @@ input, textarea, select {
   outline: none;
 }
 
-/* Using Comments */
 /* Additional Comments for Clarity and Context */
