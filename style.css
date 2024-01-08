@@ -77,11 +77,6 @@ footer {
 .profile-picture {
   border: 2px solid #007bff;
   border-radius: 50%; /* Make it rounded */
-  width: 80px; /* Adjust the size as needed */
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0; /* Update from 'right' to 'left' */
 }
 
 /* Separate sections with margins */
@@ -106,17 +101,12 @@ input, textarea, select {
 /* Using Comments */
 /* Additional Comments for Clarity and Context */
 
-
-
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 20px;
-  background-color: #f2f2f2;
 }
 
 .contact-info {
-  text-align: right;
-  margin-left: 20px;
+  width: 25%;
 }
