@@ -100,3 +100,10 @@ input, textarea, select {
 
 /* Using Comments */
 /* Additional Comments for Clarity and Context */
+
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
