@@ -1,12 +1,12 @@
-/* Global Styles */
+/* Utilizing Colors */
 body {
   color: #333;
   background-color: #f8f8f8;
+  /* Add box model properties */
   box-sizing: border-box;
-  margin: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  font-family: 'Arial', sans-serif;
+  margin: 20px; /* Add margin to the body */
+  padding: 10px; /* Add padding to the body */
+  border: 1px solid #ccc; /* Add border to the body */
 }
 
 a {
@@ -18,68 +18,77 @@ a:hover {
   color: #0056b3;
 }
 
+/* Styling Texts */
+h1, h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.7);
+  /* Add padding below headers */
+  padding-bottom: 10px;
+}
+
+/* Selecting the Font Family */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Selecting the Font Size */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* Using Comments */
 /* Header Styles */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #f0f0f0;
-}
-
-.profile-container {
-  display: flex;
-  align-items: center;
-}
-
-.profile-picture {
-  border: 2px solid #007bff;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.contact-info {
-  width: 25%;
-}
-
-/* Main Content Styles */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Summary and Education Section */
-section {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 /* Table Styles */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
 th, td {
   text-align: left;
-  padding: 10px;
 }
 
 th {
   background-color: #f2f2f2;
 }
 
-/* Form Styles */
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: hsl(210, 24%, 12%);
+  color: #fff;
+}
+
+/* Utilizing the Box Model */
+/* Add border-box to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Add border and border-radius to the profile picture */
+.profile-picture {
+  border: 2px solid #007bff;
+  border-radius: 50%; /* Make it rounded */
+}
+
+/* Separate sections with margins */
+section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Adjust form elements */
 form {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
+  /* Add margin and padding to form */
   margin: 10px;
   padding: 10px;
 }
@@ -89,10 +98,5 @@ input, textarea, select {
   outline: none;
 }
 
-/* Footer Styles */
-footer {
-  text-align: center;
-  background-color: hsl(210, 24%, 12%);
-  color: #fff;
-  padding: 10px;
-}
+/* Using Comments */
+/* Additional Comments for Clarity and Context */
