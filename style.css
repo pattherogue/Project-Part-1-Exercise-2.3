@@ -105,9 +105,13 @@ input, textarea, select {
 
 .header-container {
   display: flex;
-  flex-direction: row;
-  align-items: center; /* Align items vertically at the center */
-  justify-content: space-between; /* Align items with space between them horizontally */
-  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
 }
 
+.contact-info {
+  text-align: right;
+  margin-left: 20px;
+}
