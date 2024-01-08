@@ -106,4 +106,8 @@ input, textarea, select {
 .header-container {
   display: flex;
   flex-direction: row;
+  align-items: center; /* Align items vertically at the center */
+  justify-content: space-between; /* Align items with space between them horizontally */
+  text-align: center;
 }
+
