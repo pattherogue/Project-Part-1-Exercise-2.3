@@ -1,0 +1,102 @@
+/* Utilizing Colors */
+body {
+  color: #333;
+  background-color: #f8f8f8;
+  /* Add box model properties */
+  box-sizing: border-box;
+  margin: 20px; /* Add margin to the body */
+  padding: 10px; /* Add padding to the body */
+  border: 1px solid #ccc; /* Add border to the body */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Styling Texts */
+h1, h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.7);
+  /* Add padding below headers */
+  padding-bottom: 10px;
+}
+
+/* Selecting the Font Family */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Selecting the Font Size */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* Using Comments */
+/* Header Styles */
+header {
+  text-align: center;
+}
+
+/* Table Styles */
+th, td {
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: hsl(210, 24%, 12%);
+  color: #fff;
+}
+
+/* Utilizing the Box Model */
+/* Add border-box to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Add border and border-radius to the profile picture */
+.profile-picture {
+  border: 2px solid #007bff;
+  border-radius: 50%; /* Make it rounded */
+}
+
+/* Separate sections with margins */
+section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Adjust form elements */
+form {
+  /* Add margin and padding to form */
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Remove outlines from form elements */
+input, textarea, select {
+  outline: none;
+}
+
+/* Using Comments */
+/* Additional Comments for Clarity and Context */
